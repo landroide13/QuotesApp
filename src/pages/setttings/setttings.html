@@ -1,0 +1,22 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Setttings</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item>
+      <ion-label>Alternative Background</ion-label>
+      <ion-toggle (ion-change)="onToggle($event)" checked="checked()"></ion-toggle>
+  </ion-item>   
+
+</ion-content> 
